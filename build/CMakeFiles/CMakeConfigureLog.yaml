@@ -1,0 +1,476 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Program Files/Microsoft VS Code/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Inizio/Desktop/5/build/CMakeFiles/3.30.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Program Files/Microsoft VS Code/MinGW/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Inizio/Desktop/5/build/CMakeFiles/3.30.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-w9vukt"
+      binary: "C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-w9vukt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-w9vukt'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/Microsoft VS Code/MinGW/bin/make.exe" -f Makefile cmTC_49f3f/fast
+        D:/Program Files/Microsoft VS Code/MinGW/bin/make.exe  -f CMakeFiles/cmTC_49f3f.dir/build.make CMakeFiles/cmTC_49f3f.dir/build
+        make[1]: Entering directory 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-w9vukt'
+        Building C object CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj
+        "D:/Program Files/Microsoft VS Code/MinGW/bin/gcc.exe"   -v -o CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj -c "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:/Program Files/Microsoft VS Code/MinGW/bin/gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_49f3f.dir/'
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_49f3f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Inizio\\AppData\\Local\\Temp\\cczhbBbl.s
+        GNU C17 (GCC) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 57be99a5b99999b94eef0e4814eb03c2
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_49f3f.dir/'
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj C:\\Users\\Inizio\\AppData\\Local\\Temp\\cczhbBbl.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_49f3f.exe
+        "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_49f3f.dir/objects.a
+        "D:/Program Files/Microsoft VS Code/MinGW/bin/ar.exe" qc CMakeFiles/cmTC_49f3f.dir/objects.a @CMakeFiles/cmTC_49f3f.dir/objects1.rsp
+        "D:/Program Files/Microsoft VS Code/MinGW/bin/gcc.exe"  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_49f3f.dir/objects.a -Wl,--no-whole-archive -o cmTC_49f3f.exe -Wl,--out-implib,libcmTC_49f3f.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=D:/Program Files/Microsoft VS Code/MinGW/bin/gcc.exe
+        COLLECT_LTO_WRAPPER=D:/Program\\ Files/Microsoft\\ VS\\ Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49f3f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_49f3f.'
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Inizio\\AppData\\Local\\Temp\\ccLdd31w.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_49f3f.exe D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_49f3f.dir/objects.a --no-whole-archive --out-implib libcmTC_49f3f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        collect2 version 13.2.0
+        D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Inizio\\AppData\\Local\\Temp\\ccLdd31w.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_49f3f.exe D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_49f3f.dir/objects.a --no-whole-archive --out-implib libcmTC_49f3f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49f3f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_49f3f.'
+        make[1]: Leaving directory 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-w9vukt'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+          add: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        collapse include dir [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Program Files/Microsoft VS Code/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include;D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed;D:/Program Files/Microsoft VS Code/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-w9vukt']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/Microsoft VS Code/MinGW/bin/make.exe" -f Makefile cmTC_49f3f/fast]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/make.exe  -f CMakeFiles/cmTC_49f3f.dir/build.make CMakeFiles/cmTC_49f3f.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-w9vukt']
+        ignore line: [Building C object CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["D:/Program Files/Microsoft VS Code/MinGW/bin/gcc.exe"   -v -o CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj -c "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:/Program Files/Microsoft VS Code/MinGW/bin/gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_49f3f.dir/']
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_49f3f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Inizio\\AppData\\Local\\Temp\\cczhbBbl.s]
+        ignore line: [GNU C17 (GCC) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 57be99a5b99999b94eef0e4814eb03c2]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_49f3f.dir/']
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj C:\\Users\\Inizio\\AppData\\Local\\Temp\\cczhbBbl.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_49f3f.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_49f3f.exe]
+        ignore line: ["D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_49f3f.dir/objects.a]
+        ignore line: ["D:/Program Files/Microsoft VS Code/MinGW/bin/ar.exe" qc CMakeFiles/cmTC_49f3f.dir/objects.a @CMakeFiles/cmTC_49f3f.dir/objects1.rsp]
+        ignore line: ["D:/Program Files/Microsoft VS Code/MinGW/bin/gcc.exe"  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_49f3f.dir/objects.a -Wl --no-whole-archive -o cmTC_49f3f.exe -Wl --out-implib libcmTC_49f3f.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:/Program Files/Microsoft VS Code/MinGW/bin/gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Program\\ Files/Microsoft\\ VS\\ Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49f3f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_49f3f.']
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Inizio\\AppData\\Local\\Temp\\ccLdd31w.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_49f3f.exe D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_49f3f.dir/objects.a --no-whole-archive --out-implib libcmTC_49f3f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [collect2 version 13.2.0]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Inizio\\AppData\\Local\\Temp\\ccLdd31w.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_49f3f.exe D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_49f3f.dir/objects.a --no-whole-archive --out-implib libcmTC_49f3f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.41]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49f3f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_49f3f.']
+        ignore line: [make[1]: Leaving directory 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-w9vukt']
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': D:/Program Files/Microsoft VS Code/MinGW/x86_64-w64-mingw32/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Program Files/Microsoft VS Code/MinGW/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-sb3y3g"
+      binary: "C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-sb3y3g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-sb3y3g'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/Microsoft VS Code/MinGW/bin/make.exe" -f Makefile cmTC_8d83b/fast
+        D:/Program Files/Microsoft VS Code/MinGW/bin/make.exe  -f CMakeFiles/cmTC_8d83b.dir/build.make CMakeFiles/cmTC_8d83b.dir/build
+        make[1]: Entering directory 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-sb3y3g'
+        Building CXX object CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj
+        "D:/Program Files/Microsoft VS Code/MinGW/bin/g++.exe"   -v -o CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:/Program Files/Microsoft VS Code/MinGW/bin/g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d83b.dir/'
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8d83b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Inizio\\AppData\\Local\\Temp\\ccRCyxG6.s
+        GNU C++17 (GCC) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"
+        ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"
+        ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: aa8d155dea9d0b877613f1961dc4601a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d83b.dir/'
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Inizio\\AppData\\Local\\Temp\\ccRCyxG6.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_8d83b.exe
+        "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_8d83b.dir/objects.a
+        "D:/Program Files/Microsoft VS Code/MinGW/bin/ar.exe" qc CMakeFiles/cmTC_8d83b.dir/objects.a @CMakeFiles/cmTC_8d83b.dir/objects1.rsp
+        "D:/Program Files/Microsoft VS Code/MinGW/bin/g++.exe"  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_8d83b.dir/objects.a -Wl,--no-whole-archive -o cmTC_8d83b.exe -Wl,--out-implib,libcmTC_8d83b.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=D:/Program Files/Microsoft VS Code/MinGW/bin/g++.exe
+        COLLECT_LTO_WRAPPER=D:/Program\\ Files/Microsoft\\ VS\\ Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d83b.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8d83b.'
+         D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Inizio\\AppData\\Local\\Temp\\cchW8Rvf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_8d83b.exe D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_8d83b.dir/objects.a --no-whole-archive --out-implib libcmTC_8d83b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        collect2 version 13.2.0
+        D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Inizio\\AppData\\Local\\Temp\\cchW8Rvf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_8d83b.exe D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_8d83b.dir/objects.a --no-whole-archive --out-implib libcmTC_8d83b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d83b.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8d83b.'
+        make[1]: Leaving directory 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-sb3y3g'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0]
+          add: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32]
+          add: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward]
+          add: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+          add: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0] ==> [D:/Program Files/Microsoft VS Code/MinGW/include/c++/13.2.0]
+        collapse include dir [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32] ==> [D:/Program Files/Microsoft VS Code/MinGW/include/c++/13.2.0/x86_64-w64-mingw32]
+        collapse include dir [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward] ==> [D:/Program Files/Microsoft VS Code/MinGW/include/c++/13.2.0/backward]
+        collapse include dir [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        collapse include dir [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Program Files/Microsoft VS Code/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/Program Files/Microsoft VS Code/MinGW/include/c++/13.2.0;D:/Program Files/Microsoft VS Code/MinGW/include/c++/13.2.0/x86_64-w64-mingw32;D:/Program Files/Microsoft VS Code/MinGW/include/c++/13.2.0/backward;D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include;D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed;D:/Program Files/Microsoft VS Code/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-sb3y3g']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/Microsoft VS Code/MinGW/bin/make.exe" -f Makefile cmTC_8d83b/fast]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/make.exe  -f CMakeFiles/cmTC_8d83b.dir/build.make CMakeFiles/cmTC_8d83b.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-sb3y3g']
+        ignore line: [Building CXX object CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["D:/Program Files/Microsoft VS Code/MinGW/bin/g++.exe"   -v -o CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:/Program Files/Microsoft VS Code/MinGW/bin/g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d83b.dir/']
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8d83b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Inizio\\AppData\\Local\\Temp\\ccRCyxG6.s]
+        ignore line: [GNU C++17 (GCC) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/Program Files/Microsoft VS Code/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0]
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32]
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward]
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: aa8d155dea9d0b877613f1961dc4601a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d83b.dir/']
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Inizio\\AppData\\Local\\Temp\\ccRCyxG6.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8d83b.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_8d83b.exe]
+        ignore line: ["D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_8d83b.dir/objects.a]
+        ignore line: ["D:/Program Files/Microsoft VS Code/MinGW/bin/ar.exe" qc CMakeFiles/cmTC_8d83b.dir/objects.a @CMakeFiles/cmTC_8d83b.dir/objects1.rsp]
+        ignore line: ["D:/Program Files/Microsoft VS Code/MinGW/bin/g++.exe"  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_8d83b.dir/objects.a -Wl --no-whole-archive -o cmTC_8d83b.exe -Wl --out-implib libcmTC_8d83b.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:/Program Files/Microsoft VS Code/MinGW/bin/g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/Program\\ Files/Microsoft\\ VS\\ Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d83b.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8d83b.']
+        ignore line: [ D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Inizio\\AppData\\Local\\Temp\\cchW8Rvf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_8d83b.exe D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_8d83b.dir/objects.a --no-whole-archive --out-implib libcmTC_8d83b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [collect2 version 13.2.0]
+        ignore line: [D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Program Files/Microsoft VS Code/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Inizio\\AppData\\Local\\Temp\\cchW8Rvf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_8d83b.exe D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_8d83b.dir/objects.a --no-whole-archive --out-implib libcmTC_8d83b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Program Files/Microsoft VS Code/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.41]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d83b.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8d83b.']
+        ignore line: [make[1]: Leaving directory 'C:/Users/Inizio/Desktop/5/build/CMakeFiles/CMakeScratch/TryCompile-sb3y3g']
+        ignore line: []
+        ignore line: []
+        linker tool for 'CXX': D:/Program Files/Microsoft VS Code/MinGW/x86_64-w64-mingw32/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files/Microsoft VS Code/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Program Files/Microsoft VS Code/MinGW/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.41
+...

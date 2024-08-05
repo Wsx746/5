@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Inizio/Desktop/5/build",
+  "command": "g++    -g -Wall -O2  -g -o CMakeFiles/factory.dir/main.cpp.obj -c C:/Users/Inizio/Desktop/5/Factory/main.cpp",
+  "file": "C:/Users/Inizio/Desktop/5/Factory/main.cpp",
+  "output": "CMakeFiles/factory.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Inizio/Desktop/5/build",
+  "command": "g++    -g -Wall -O2  -g -o CMakeFiles/factory.dir/Factory.cpp.obj -c C:/Users/Inizio/Desktop/5/Factory/Factory.cpp",
+  "file": "C:/Users/Inizio/Desktop/5/Factory/Factory.cpp",
+  "output": "CMakeFiles/factory.dir/Factory.cpp.obj"
+}
+]

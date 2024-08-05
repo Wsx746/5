@@ -1,0 +1,3 @@
+C:/Users/Inizio/Desktop/5/build/CMakeFiles/factory.dir
+C:/Users/Inizio/Desktop/5/build/CMakeFiles/edit_cache.dir
+C:/Users/Inizio/Desktop/5/build/CMakeFiles/rebuild_cache.dir
